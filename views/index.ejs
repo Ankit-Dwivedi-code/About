@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="output.css" rel="stylesheet" />
+  <title>CodeWithAnkit</title>
+</head>
+
+<body>
+  <header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-between bg-teal-100">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+          stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-teal-500 rounded-full"
+          viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg>
+        <span class="ml-3 text-xl">CodeWithAnkit</span>
+      </a>
+      <button onclick="window.location.href = '/contact'"
+        class="inline-flex text-white bg-teal-500 border-0 py-1.5 px-3 ml-4 focus:outline-none hover:bg-teal-600 rounded text-lg">
+        Contact Me
+      </button>
+    </div>
+    <hr />
+  </header>
+  <section class="text-gray-600 body-font bg-gray-100">
+    <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+      <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero"
+        src="https://i.pinimg.com/736x/d0/79/81/d079816c1e699834fd1f01eceeddee8e.jpg" />
+      <div class="text-center lg:w-2/3 w-full">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+          Coding is in Bloodstream!
+        </h1>
+        <p class="mb-8 leading-relaxed">
+          In the vast expanse of digital creation, coding stands as the
+          conduit between human ingenuity and technological manifestation.
+          With each line of code, we wield the power to sculpt worlds from the
+          raw material of imagination, shaping the virtual realm with logic
+          and precision. It's a language universal, where syntax serves as our
+          brush and logic our canvas, allowing us to weave intricate
+          algorithms and breathe life into digital constructs. Through the
+          rhythmic dance of keystrokes and the careful arrangement of symbols,
+          we unlock the secrets of technology, bending machines to our will
+          and propelling innovation forward. Coding is more than just
+          problem-solving; it's a journey of discovery, a quest to push the
+          boundaries of what's possible, and a testament to human creativity
+          in the digital age.
+        </p>
+        <div class="flex justify-center">
+          <button onclick="window.location.href = '/about'"
+            class="inline-flex text-white bg-teal-500 border-0 py-2 px-6 focus:outline-none hover:bg-teal-600 rounded text-lg">
+            About Me
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-white  shadow dark:bg-teal-600 p-4">
+    <span class="block text-sm text-gray-400 sm:text-center dark:text-gray-200">&copy; <%= date %> CodeWithAnkit
+
+    </span>
+  </footer>
+</body>
+
+</html>

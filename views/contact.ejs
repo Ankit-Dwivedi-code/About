@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link href="output.css" rel="stylesheet" />
+    <title>Contact CodeWithAnkit</title>
+  </head>
+  <body class="antialiased bg-gray-100">
+    <div class="flex w-full min-h-screen justify-center items-center">
+      
+      <div
+        class="flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6 bg-cyan-700 w-full max-w-2xl p-8 sm:p-12 rounded-xl shadow-lg text-white overflow-hidden"
+      >
+      
+        <div class="flex flex-col space-y-8 justify-between">
+          <div>
+            <h1 class="font-bold text-4xl tracking-wide">Contact Me</h1>
+          </div>
+          <div class="flex flex-col space-y-6">
+            <div class="inline-flex space-x-2 items-center">
+              <!-- <ion-icon name="call" class="text-teal-300 text-xl"></ion-icon> -->
+              <span>+(91) 7488734284</span>
+            </div>
+            <div class="inline-flex space-x-2 items-center">
+              <!-- <ion-icon name="main" class="text-teal-300 text-xl"></ion-icon> -->
+              <span>ankitmentors141@gmail.com</span>
+            </div>
+            <div class="inline-flex space-x-2 items-center">
+              <!-- <ion-icon name="location" class="text-teal-300 text-xl"></ion-icon> -->
+              <span>Patna, Bihar 800020</span>
+            </div>
+          </div>
+          <div class="flex space-x-4 text-lg">
+            <a href="#">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </div>
+        </div>
+        <div class="relative">
+            <div class="absolute w-40 z-0 h-40 bg-teal-400 rounded-full right-1 -top-28"></div>
+            <div class="absolute w-40 z-0 h-40 bg-teal-400 rounded-full right-96 -bottom-36"></div>
+          <div class="relative z-10 bg-white rounded-xl shadow-lg p-8 text-gray-600 md:w-80">
+            <form action="https://api.web3forms.com/submit" method="POST" class="flex flex-col space-y-4">
+              <div>
+                <input type="hidden" name="access_key" value="f512c549-af45-40c3-8bb3-dc5bc7a2400e">
+                <label for="" class="text-sm">Your Name</label>
+                <input
+                name="your_name" required
+                  type="text"
+                  placeholder="Your name"
+                  class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-teal-300"
+                />
+              </div>
+              <div>
+                <label for="" class="text-sm">Your Email</label>
+                <input
+                name="your_email" required
+                  type="email"
+                  placeholder="Email Address"
+                  class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-teal-300"
+                />
+              </div>
+              <div>
+                <label for="" class="text-sm">Your Message</label>
+                <textarea name="your_message" placeholder="Message" rows="4" class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-teal-300" id=""></textarea>
+              </div>
+              <button class="inline-block self-end bg-cyan-700 font-bold text-white rounded-lg px-6 py-2 uppercase text-sm">SEND</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-center border">
+      <button onclick="window.location.href = '/'"
+      class="inline-flex text-white bg-teal-500 border-0 py-2 px-6 focus:outline-none hover:bg-teal-600 rounded text-lg">
+      Home
+    </button>
+    </div>
+    <footer class="  bg-teal-500  shadow dark:bg-teal-600 p-4">
+      <span class="block text-center text-sm text-gray-400 sm:text-center dark:text-gray-200">&copy; <%= date %> CodeWithAnkit
+  
+      </span>
+    </footer>
+    <!-- <script src="https://unpkg.com/ionicon@5.4.0/dist/ionicons.js"></script> -->
+  </body>
+</html>
